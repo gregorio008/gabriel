@@ -1,0 +1,486 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Asap:ital,wght@0,100..900;1,100..900&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fjalla+One&family=Francois+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Saira:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&family=TikTok+Sans:opsz,wght@12..36,300..900&family=Ubuntu+Condensed&family=Viga&display=swap');
+/*"Open Sans", sans-serif;*/
+/*"TikTok Sans", sans-serif;*/
+/*"Libre Franklin", sans-serif;*/
+/*"Barlow Condensed", sans-serif;*/
+/*"Sora", sans-serif;*/
+/*"Asap", sans-serif;*/
+/*"Ubuntu Condensed", sans-serif;*/
+/*"Viga", sans-serif;*/
+/*"Francois One", sans-serif;*/
+/*"Cascadia Code", sans-serif;*/
+/*"Oswald", sans-serif;*/
+/*"Josefin Sans", sans-serif;*/
+/*"Archivo", sans-serif;*/
+/*"Fjalla One", sans-serif;*/
+/*"Exo 2", sans-serif;*/
+/*"Saira", sans-serif;*/
+
+
+
+
+
+
+
+
+*{
+    margin: 0; /* remove margens */
+    padding: 0; /* remove preenchimento */
+    box-sizing: border-box; /* inclui bordas e preenchimento no tamanho total */
+    list-style: none; /* remove marcadores de lista */
+    text-decoration: none; /* remove sublinhado de links */
+}
+
+html body {
+     height: 100%;
+     background-color: rgb(0, 0, 0);
+
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+
+}
+
+     .copy {
+
+        background-color: black;
+        padding: 20px 10px;
+        font-family: 'Oswald', sans-serif; /* fonte do texto / / para colocar a fonte importada deverá pegar do link dps de family*/
+        font-size: 10px; /* tamanho do texto */
+        color: rgb(255, 255, 255); /* cor do texto */
+        margin-top: 20px; /* espaçamento acima do texto */
+        margin-bottom: 20px; /* espaçamento abaixo do texto */
+        font-weight:100;/* peso da fonte largura fonte */
+        position: absolute; /* poscionamento livre */
+        left: 955px; /* ajusta da esquerda para direita */
+        right: 0; /* ajusta da direita para esquerda */
+        top: 1900px; /* ajusta de cima para baixo */
+
+
+    }
+
+    .termosvenda {
+        color: white;
+        position: relative;
+        font-size: 11px;
+        top: 1242.3px;
+        left: 80px;
+        width: 0px;
+        white-space: nowrap; /*nao quebra a linha*/
+        font-family: 'Oswald', sans-serif;
+        font-weight:100;/* peso da fonte largura fonte */
+    }
+
+    .termosprivacidade {
+        color: white;
+        position: relative;
+        font-size: 11px;
+        top: 1226.6px;
+        left: 180px;
+        width: 0px;
+        white-space: nowrap; /*nao quebra a linha*/
+        font-family: 'Oswald', sans-serif;
+        font-weight:100;/* peso da fonte largura fonte */
+
+    }
+
+    .linha{
+        position: relative;
+        top: 1200px;
+        width: 90%;
+        left: 50px;
+    }
+
+      .fundos {
+        position: relative;
+        width: 290px; /* largura da imagem */  
+        height: 400px; /* altura da imagem */
+        top: 900px; /* ajusta de cima para baixo */
+        left: 300px; /* ajusta da esquerda para direita */
+        right: 1207px; /* ajusta da direita para esquerda */
+    }
+
+
+    .Contato {
+        width: 28px; /* largura do ícone do telefone */
+        height: 28px; /* altura do ícone do telefone */
+        position: absolute; /* poscionamento livre */
+        top: 20px; /* ajustar de cima para baixo */
+        right: 1180px; /* ajustar da direita para esquerda */
+    }
+
+         .Contato {                       /* ANIMAÇAO LOGO ZOOM */
+        transition: transform 0.3s ease;
+    }
+
+    .Contato:hover {
+        transform: scale(1.2); /* Aumenta 20% ao passar o mouse */
+    }
+    
+        .buscar {
+         width: 125px; /* largura do campo de pesquisa */
+         position:absolute;
+         top: 17px;    /* MUDE AQUI pra subir ou descer */
+         left: 1000px;    /* centralizado horizontalmente */
+         z-index: 9999; /* fica acima do cabeçalho */
+       }
+
+
+.cabeçalho {
+      background-color: rgb(255, 255, 255); /* barra branca */
+      padding: 30px;            /* espaço interno */
+      text-align: center; /* alinhamento do texto */
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* sombra leve */
+      border-radius: 5px; /* bordas arredondadas */
+        position: fixed; /* poscionamento relativo */
+        top: -10px; /* posiciona no topo */
+        width: 102%; /* largura total */
+        right: -20px; /* posiciona à direita */
+       z-index: 5; /* sobreposição de camadas */
+    }
+ 
+     .frase {
+        font-family: 'Fjalla One', sans-serif; /* fonte do texto */
+        font-size: 40px; /* tamanho do texto */
+        letter-spacing: -1px;
+        padding: 10px 10px;
+        color: #ffffff; /* cor do texto */
+        text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.9);
+        font-weight: 900; /* peso da fonte largura fonte */
+        position: absolute; /* poscionamento livre */
+        left: 465px; /* ajusta da esquerda para direita */
+        top:435px; /* ajusta de cima para baixo */
+        display: inline-block;      /* Garante que o fundo só ocupe o tamanho do texto */
+        white-space: nowrap; /*nao quebra a linha*/
+        line-height: 0.9; /* padrão é 1.2 ~ 1.5, diminuir deixa mais compacto */
+       }
+
+       .subfrase {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        letter-spacing: 1px;
+        font-size: 9px;
+        font-weight: 900;
+        position: relative;
+        color: white;
+        top: -256px;
+        z-index: 1;
+        left: 545px;
+        width: 20px;
+        white-space: nowrap; /*nao quebra a linha*/
+       }
+
+
+    ul{
+
+       list-style-type: none; /* remover os marcadores da lista */
+    
+    }
+
+
+    .titulos {
+        color: rgb(0, 0, 0); /* cor do texto */
+        text-decoration: none; /* sem sublinhado */
+        padding: 0%;  /* sem espaçamento interno*/
+        margin: 10px; /* espaçamento entre link ou palavras */
+        font-family:Arial, sans-serif; /* fonte do texto*/
+        font-size: 18px; /* tamanho do texto tamanho da escrita */
+        letter-spacing: -1px; /* espaçamento entre letras uma da outra */
+        font-weight: 600; /* peso da fonte largura fonte */
+        height: 30px; /* altura do link */
+        position: relative; /* poscionamento relativo */
+        top: 5px; /* ajustar de cima para baixo */
+        right: 600px; /* ajustar da direita para esquerda */
+    }
+
+    .buscar {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        outline: none; /* sem contorno */
+        border: none; /* sem borda */
+        width: 140px; /* largura do campo de pesquisa */
+        font-family: 'Open Sans', sans-serif; /* fonte do texto */
+        font-weight: 500; /* peso da fonte largura fonte */
+        position: absolute; /* poscionamento livre */
+        left: 1009px;
+        top: 25px; /* ajustar de cima para baixo */
+        z-index: 10;
+    }
+
+    .procurar {
+        width: 280px; /* largura do ícone da lupa */
+        height: 280px; /* altura do ícone da lupa */
+        position: absolute; /* poscionamento livre */
+        top: -107px; /* ajustar de cima para baixo */
+        right: 25px; /* ajustar da direita para esquerda */
+
+    }
+
+         .procurar {                       /* ANIMAÇAO LOGO ZOOM */
+        transition: transform 0.3s ease;
+    }
+
+    .procurar:hover {
+        transform: scale(1.1); /* Aumenta 20% ao passar o mouse */
+    }
+
+  
+    .carro {
+        width: 45px; /* largura do ícone do carrinho */
+        height: 45px; /* altura do ícone do carrinho */
+        position: absolute; /* poscionamento livre */
+        top: 10px; /* ajustar de cima para baixo */
+        right: 30px; /* ajustar da direita para esquerda */
+    }
+
+         .carro {                       /* ANIMAÇAO LOGO ZOOM */
+        transition: transform 0.3s ease;
+    }
+
+    .carro:hover {
+        transform: scale(1.2); /* Aumenta 20% ao passar o mouse */
+    }
+
+    .pnglogo { 
+        
+        width: 140px;    /* largura da imagem */
+        right: 140px;    /* altura da imagem*/
+        position:absolute; /* poscionamento livre */
+        top: -35px; /* ajustar de cima para baixo */
+        left: 530px; /* ajustar da esquerda para direita */
+    }
+
+          .pnglogo {                       /* ANIMAÇAO LOGO ZOOM */
+        transition: transform 0.3s ease;
+    }
+
+    .pnglogo:hover {
+        transform: scale(1.1); /* Aumenta 20% ao passar o mouse */
+    }
+
+    .fotosite {
+        width: 100%; /* largura da imagem */
+        height: 30%; /* altura da imagem */
+        top: 0; /* ajustar de cima para baixo */
+        left: -5px; /* ajustar da esquerda para direita */
+        z-index: -1; /* abaixo de outros elementos */
+        
+
+    }
+     
+    .degrade {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 116%; 
+      background: linear-gradient(to top, rgba(0, 0, 0, 3) 0%, rgba(0, 0, 0, 0.4) 100%, rgba(255, 255, 255, 0) 100%);
+    }
+
+
+    .rodape {
+        position:absolute; /* poscionamento livre */
+        width: 30px; /* largura da imagem */
+        height: 30px; /* altura da imagem */
+        top: 1905px; /* ajusta de cima para baixo */
+        bottom: 0; /* ajusta para o fundo */
+        left: 1095px; /* ajusta da esquerda para direita */
+        z-index: 2; /* abaixo de outros elementos */
+    }
+
+    .polo {
+        position: absolute; /* poscionamento livre */
+        top: 1285px; /* ajusta de cima para baixo */
+        left: 20px; /* ajusta da esquerda para direita */
+        width: 300px; /* largura do texto */
+        height: 200px; /* altura do texto */
+        font-weight: 400; /* peso da fonte largura fonte */
+        font-family: 'Open Sans' /* fonte do texto */
+    }
+
+     @media screen and (max-width: 768px) { /* tela menor que 768px */
+
+        *{
+    margin: 0; /* remove margens */
+    padding: 0; /* remove preenchimento */
+    box-sizing: border-box; /* inclui bordas e preenchimento no tamanho total */
+    list-style: none; /* remove marcadores de lista */
+    text-decoration: none; /* remove sublinhado de links */
+    overflow-x: hidden;
+    
+}
+
+        .termosprivacidade {
+          
+            position: absolute;
+            width: 80%;
+            top: 1937px;
+            left: 20px;
+        }
+
+        .cabeçalho {
+            background-color: rgb(255, 255, 255); /* barra branca */
+            padding: 30px; /* espaço interno */
+            text-align: center; /* alinhamento do texto */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* sombra leve */
+            border-radius: 5px; /* bordas arredondadas */
+            position: fixed; /* poscionamento relativo */
+            top: -10px; /* posiciona no topo */
+            width: 100%; /* largura total */
+            right: 0; /* posiciona à direita */
+            z-index: 4000%; /* sobreposição de camadas */
+        }
+
+        .subfrase {
+            width: 100vh;
+            height: 100vh;
+            position: relative;
+            left: 145px;
+            top: -117px
+            
+        }
+
+        
+        
+        
+        .pnglogo  {
+            width: 120px;
+            height: 120px; /* altura da imagem do logo */
+            right: 0; /* ajusta da direita para esquerda */
+            position: absolute; /* poscionamento livre */
+            top: -27px; /* ajusta de cima para baixo */
+            left: 5px; /* ajusta da esquerda para direita */
+        }
+
+          .pnglogo {                       /* ANIMAÇAO LOGO ZOOM */
+        transition: transform 0.3s ease;
+    }
+
+    .pnglogo:hover {
+        transform: scale(1.1); /* Aumenta 20% ao passar o mouse */
+    }
+
+    .degrade {
+      
+      top: 0px;
+      left: 0;
+      width: 100%;
+      height: 72%; 
+      background: linear-gradient(to top, rgba(0, 0, 0, 3) 0%, rgba(0, 0, 0, 0.4) 100%, rgba(255, 255, 255, 0) 100%);
+    }
+
+        .frase {
+            width: 280px;
+            font-size: 40px; /* tamanho do texto */
+            color: rgb(255, 255, 255); /* cor do texto */
+            font-weight: 300; /* peso da fonte largura fonte */
+            position: absolute; /* poscionamento livre */
+            left: 60px; /* ajusta da esquerda para direita */
+            right: 0; /* ajusta da direita para esquerda */
+            top: 330px; /* ajusta de cima para baixo */
+            font-weight: 600;
+        }
+
+
+
+        
+        .linha{
+        position: absolute;
+        top: 1900px;
+        width: 80%;
+        left: 30px;
+        }
+
+        .linhab {
+            position: absolute;
+             top: 437px;
+             width: 100%;
+        }
+        
+        .buscar {
+            border: none; /* sem borda */
+            outline: none; /* sem contorno */
+            font-family: 'Open Sans', sans-serif; /* fonte do texto */
+            font-weight: 600; /* peso da fonte largura fonte */
+            height: 18px; /* altura automática */
+            left: 163px;
+            top: 27px; /* ajusta de cima para baixo */
+            z-index: 10; /* sobreposição de camadas */
+            width: 120px; /* largura do ícone do carrinho */
+            
+        }
+
+        .fundos {
+            width: 370px; /* largura da imagem de fundo */
+            height: 400px; /* altura da imagem de fundo */
+            top: 614px; /* ajusta de cima para baixo */
+            right: 10px; /* ajusta da direita para esquerda */
+        }
+
+        .carro {
+            width: 50px; /* largura do ícone do carrinho */
+            height: 50px; /* altura do ícone do carrinho */
+            position: absolute; /* poscionamento livre */
+            top: 10px; /* ajusta de cima para baixo */
+            right: 35px; /* ajusta da direita para esquerda */
+        }
+
+        .procurar {
+            width: 260px; /* largura do ícone da lupa */
+            height: 260px; /* altura do ícone da lupa */
+            position: absolute; /* poscionamento livre */
+            top: -94px; /* ajusta de cima para baixo */
+            right: 40px; /* ajusta da direita para esquerda */
+        }
+        
+        .Contato {
+            width: 28px; /* largura do ícone do telefone */
+            height: 28px; /* altura do ícone do telefone */
+            position: absolute; /* poscionamento livre */
+            top: 21px; /* ajusta de cima para baixo */
+            right: 10px; /* ajusta da direita para esquerda */
+        }
+        
+        
+        
+        .copy {
+            font-size: 8px; /* tamanho do texto */
+            color: rgb(255, 255, 255); /* cor do texto */
+            margin-top: 20px; /* espaçamento acima do texto */
+            margin-bottom: 20px; /* espaçamento abaixo do texto */
+            font-weight: 500; /* peso da fonte largura fonte */
+            position: absolute; /* poscionamento livre */
+            left: 180px; /* ajusta da esquerda para direita */
+            right: 0; /* ajusta da direita para esquerda */
+            top: 1900px; /* ajusta de cima para baixo */
+        }
+        
+        
+        .fotosite {
+            width: 200%; /* largura total */
+            height: 100%; /* altura automática */
+            top: 0; /* ajusta de cima para baixo */
+            left: 0; /* ajusta da esquerda para direita */
+            overflow: hidden;
+        }
+
+        .polo {
+            top: 1015px; /* ajusta de cima para baixo */
+            left: 10px; /* ajusta da esquerda para direita */
+        }
+
+        .rodape {
+            width: 28px; /* largura da imagem do rodapé */
+            height: 28px; /* altura da imagem do rodapé */
+            top: 1910px; /* ajusta de cima para baixo */
+            left: 310px; /* ajusta da esquerda para direita */
+        }
+        
+
+
+        
+    }
